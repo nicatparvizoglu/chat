@@ -1,0 +1,45 @@
+.chat-mini{
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    padding: 10px;
+    background: goldenrod;
+    width: 200px;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    cursor: pointer;
+}
+#chat{
+    position: fixed;
+    width: 400px;
+    right: 15px;
+    bottom: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    &.active{
+        display: none;
+    }
+    header{
+        background: goldenrod;
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        .upper{
+            i{
+                padding: 0px 5px;
+                cursor: pointer;
+            }
+        }
+        .middle{
+            text-align: center;
+            padding: 15px;
+        
+        }
+    }
+    main{
+        height: 400px;
+        padding: 15px;
+        background: #fff;
+    }
+}
+
